@@ -6,6 +6,7 @@
 - Responsive Design: The app adjusts seamlessly across all screen sizes—mobile, tablet, and desktop.
 - Article Previews: View article previews with title, description, image, and source details.
 - External Links: Click on any article to open the full content in a new tab.
+- loading ...
 
 
 # How It Works
@@ -22,7 +23,7 @@ Once an article catches your interest, you can click on it to read more in a new
 - GNews API: Provides up-to-date news articles for a wide variety of topics.
 
 
-#How to Use:
+# How to Use:
 1.Search for News: Enter a keyword or topic in the search bar, and click the search button or press "Enter" to get the latest news articles.
 2.Browse Categories: Use the navigation menu to view trending articles under different categories (e.g., India, Technology, Business).
 3.Read Articles: Click on any article card to open the full article in a new tab.
