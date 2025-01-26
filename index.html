@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News App</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <header id="navbar">
+    <nav>
+      <ul>
+        <li id="India" class="nav-item active" onclick="onNavItemClick('India')">India</li>
+        <li id="USA" class="nav-item" onclick="onNavItemClick('USA')">USA</li>
+        <li id="Technology" class="nav-item" onclick="onNavItemClick('Technology')">Technology</li>
+        <li id="Business" class="nav-item" onclick="onNavItemClick('Business')">Business</li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" id="search-text" placeholder="Search for news...">
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <div id="news-preloader">
+        <div class="loader-text">Loading...</div>
+    </div>
+    <div id="cards-container" class="cards-container"></div>
+  </main>
+
+  <!-- News Card Template -->
+  <template id="template-news-card">
+    <div class="news-card">
+      <img id="news-img" alt="News image">
+      <div class="news-details">
+        <h3 id="news-title"></h3>
+        <p id="news-desc"></p>
+        <span id="news-source"></span>
+      </div>
+    </div>
+  </template>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="column">
+        <h3>About</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Subscribe</h3>
+        <div class="subscribe">
+          <input type="email" id="subscribe-email" placeholder="Enter your email">
+          <button id="subscribe-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="social">
+      <a href="#"></i>Facebook</a>
+      <a href="#"></i>Twitter</a>
+      <a href="#"></i>Instagram</a>
+    </div>
+    <div class="bottom">© 2025 NewsApp. All rights reserved.</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
